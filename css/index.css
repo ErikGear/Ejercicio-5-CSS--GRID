@@ -25,12 +25,16 @@ html {
 }
 
 .marco-bandera {
+    display: grid;
     width: 100%;
     height: 100vh;
     border: 0.2rem solid --var(--negro);
-    background-color: #fdf0d5;
-    display: grid;
+    background-color: var(--azul);
     grid-template-columns: 30% 70%;
-    
+    grid-template-rows: 1fr 1fr;
+
+}
+.caja {
+    background-color: var(--rojo);
 }
 
