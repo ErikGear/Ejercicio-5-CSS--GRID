@@ -19,12 +19,18 @@ html {
     del BoxModel
 
     Esto significa que todos los elementos que se creen antes 
-    o depues emplearan la propiedad BORDER-BOX, del elemento raiz.
+    o depues emplearan la propiedad BORDER-BOX, del elemento raiz
     */
     box-sizing: inherit;
 }
 
-
-
-
+.marco-bandera {
+    width: 100%;
+    height: 100vh;
+    border: 0.2rem solid --var(--negro);
+    background-color: #fdf0d5;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+}
 
