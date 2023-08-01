@@ -34,7 +34,39 @@ html {
     grid-template-rows: 1fr 1fr;
 
 }
+
+/*Agregando estilos de caja general*/
 .caja {
     background-color: var(--rojo);
 }
 
+
+/*Agregando estilos a cada cuadricula*/
+.caja-si {
+    border-right: 3rem solid var(--blanco);
+    border-bottom: 3rem solid var(--blanco);
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    grid-row: 1/2;
+}
+
+.caja-ii {
+    border-top: 3rem solid var(--blanco);
+    border-right: 3rem solid var(--blanco);
+    margin-right: 3rem;
+    margin-top: 3rem;
+}
+
+.caja-sd {
+    border-bottom: 3rem solid var(--blanco);
+    border-left: 3rem solid var(--blanco);
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.caja-id {
+    border-top: 3rem solid var(--blanco);
+    border-left: 3rem solid var(--blanco);
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
